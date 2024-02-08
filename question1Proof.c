@@ -1,7 +1,7 @@
 /*
 * Richard Zhang
 * CSC 251
-* Lab 1
+* Question 1 Proof
 * Feb 4 2024
 */
 #include <sys/time.h>
@@ -31,7 +31,7 @@ int main() {
     seconds = end.tv_sec - start.tv_sec;
     microseconds = end.tv_usec - start.tv_usec;
     millisecondsMeasureTime = ((seconds) * 1000 + microseconds/1000.0) + 0.5;
-    printf("Time cost for running the function call 10000 times: %f", millisecondsMeasureTime);
+    printf("Time cost for running the function call 10000 times in milliseconds \n: %f", millisecondsMeasureTime);
 
     // run this simple system call 10000 times
     gettimeofday(&start, NULL);
@@ -44,7 +44,7 @@ int main() {
     seconds = end.tv_sec - start.tv_sec;
     microseconds = end.tv_usec - start.tv_usec;
     millisecondsMeasureTime = ((seconds) * 1000 + microseconds/1000.0) + 0.5;
-    printf("\nTime cost for running the system call 10000 times: %f\n", millisecondsMeasureTime);
+    printf("\nTime cost for running the system call 10000 times in milliseconds \n: %f\n", millisecondsMeasureTime);
 
     return 0;
 }
