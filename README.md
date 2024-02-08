@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Computer Systems II: Program 1</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px;
-            font-family: monospace;
-        }
-    </style>
-</head>
 <body>
     <h1>Computer Systems II</h1>
     <h2>Program 1</h2>
